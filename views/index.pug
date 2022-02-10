@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  header
+    a(id="header-menu")
+      span(class="material-icons") menu
+  main
+    include main.pug
+  footer
+    a(id="footer-home")
+      span(class="material-icons") home
+    a(id="footer-qr")
+      span(class="material-icons") qr_code_scanner
+    a(id="footer-hist")
+      span(class="material-icons") history
