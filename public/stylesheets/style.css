@@ -37,13 +37,38 @@ footer {
 }
 
 footer a {
-  color: #999;
+  color: #222;
+  padding: 2rem;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 main {
-  display: flex;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 .app-window {
   width: 100vw;
+  position: absolute;
+  transition: left, right, top, bottom 0.5s;
+}
+
+.app-window.inactive {
+  display: none;
+}
+
+span#pill {
+  position: absolute;
+  background-color: black;
+  display: block;
+  width: 3rem;
+  height: .3rem;
+  bottom: .5rem;
+  border-radius: 200rem;
+  left: 50%;
+  transition: left 0.2s;
+  transform: translateX(-50%);
 }
