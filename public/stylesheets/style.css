@@ -39,3 +39,11 @@ footer {
 footer a {
   color: #999;
 }
+
+main {
+  display: flex;
+}
+
+.app-window {
+  width: 100vw;
+}
