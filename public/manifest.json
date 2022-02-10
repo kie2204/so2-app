@@ -3,9 +3,15 @@
     "name": " ",
     "icons": [
       {
-        "src": "/images/icon-maskable-256.png",
+        "src": "/images/icon-maskable-192.png",
         "type": "image/png",
-        "sizes": "256x256",
+        "sizes": "192x192",
+        "purpose": "maskable"
+      },
+      {
+        "src": "/images/icon-maskable-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
         "purpose": "maskable"
       },
       {
