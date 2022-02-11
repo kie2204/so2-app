@@ -12,7 +12,7 @@
 }
 
 .large-green-box {
-    background-color: var(--main-color);
+    background-color: #77b458;
     padding: 1rem;
     box-sizing: border-box;
     width: calc(100vw - 2rem);
