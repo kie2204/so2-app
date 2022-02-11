@@ -10,3 +10,18 @@
     border: thin solid #999;
     font-family: "Cabin", sans-serif;
 }
+
+.large-green-box {
+    background-color: var(--main-color);
+    padding: 1rem;
+    box-sizing: border-box;
+    width: calc(100vw - 2rem);
+    margin-top: 1rem;
+    border-radius: .5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.large-green-box h1 {
+    margin: 0.5rem 0;
+}

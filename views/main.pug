@@ -5,6 +5,12 @@ link(rel="stylesheet" href="/stylesheets/app.css")
 #window-home.app-window.active
     h1 Velkommen!
     input(type="text", name="Søg", placeholder="Søg efter kemikalier...")
+    .large-green-box(onclick="openPage(2)")
+        h1 Scan QR-kode
+        p Find et kemikalie ved at scanne dets QR-kode.
+    .large-green-box(onclick="openPage(3)")
+        h1 Historik
+        p Her kan du se dine tidligere søgte kemikalier.
 
 #window-scan-qr.app-window
     h1 Scan QR-kode
