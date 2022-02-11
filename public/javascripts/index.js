@@ -78,6 +78,6 @@ function openPage(x) {
 window.addEventListener('resize', slidePill);
 window.addEventListener('load', checkURL);
 window.addEventListener("load", function(){
-    const qrScanner = new QrScanner(document.getElementsByTagName("video")[0], result => function(){openPage(3); alert(result)});
+    const qrScanner = new QrScanner(document.getElementsByTagName("video")[0], result => alert(result));
     qrScanner.start();
 })
