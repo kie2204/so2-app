@@ -19,6 +19,7 @@ header {
   justify-content: space-between;
   padding: 1rem;
   box-sizing: border-box;
+  z-index: 9999;
 }
 
 header a {

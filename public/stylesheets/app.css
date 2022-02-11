@@ -1,9 +1,10 @@
-#window-home {
+#window-home, #window-scan-qr {
     padding: 1rem;
+    box-sizing: border-box;
 }
 
 #window-home input {
-    width: calc(100vw - 2rem);
+    width: 100%;
     box-sizing: border-box;
     padding: .5rem;
     border-radius: .5rem;
@@ -15,7 +16,7 @@
     background-color: #77b458;
     padding: 1rem;
     box-sizing: border-box;
-    width: calc(100vw - 2rem);
+    width: 100%;
     margin-top: 1rem;
     border-radius: .5rem;
     color: white;
@@ -24,4 +25,9 @@
 
 .large-green-box h1 {
     margin: 0.5rem 0;
+}
+
+#window-scan-qr video {
+    width: 100%;
+    height: 100%;
 }
