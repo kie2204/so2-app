@@ -1,5 +1,3 @@
-var QrScanner = import("/javascripts/qr-scanner.min.js")
-
 // Register service worker
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js')
@@ -80,6 +78,6 @@ function openPage(x) {
 window.addEventListener('resize', slidePill);
 window.addEventListener('load', checkURL);
 window.addEventListener("load", function(){
-    const qrScanner = new QrScanner(document.getElementsByTagName("video")[0], result => console.log('decoded qr code:', result));
+    const qrScanner = new QrScanner(document.getElementsByTagName("video")[0], result => function(){openPage(3); alert(result)});
     qrScanner.start();
 })
